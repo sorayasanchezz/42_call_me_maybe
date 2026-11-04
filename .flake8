@@ -1,0 +1,4 @@
+[flake8]
+# Only check our own code: not the virtual environment
+# and not the llm_sdk package that the subject gives us.
+exclude = .git, .venv, __pycache__, .mypy_cache, llm_sdk
